@@ -6,6 +6,7 @@
 	<div class="row">
 		<div class="card">
 			<img src="img/conocenos.PNG" alt="error" class="card-img-top">
+			
 		</div>
 	</div>
 </div>

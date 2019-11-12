@@ -38,7 +38,7 @@
                         </li>
 
                         <li class="nav-item">
-                           <a href="areaNiños.php" class="nav-link" id="conocenos">Conocenos</a>
+                           <a href="conocenos.php" class="nav-link" id="conocenos">Conocenos</a>
                         </li>
 
     						</ul>
@@ -169,7 +169,7 @@
                 <div class="col-sm-2 mt-2">
                     <div class="card	bg-light">
                       <div class="card-header	bg-dark text-white text-uppercase">
-                        Presios
+                        Precios
 
                       </div>
 
