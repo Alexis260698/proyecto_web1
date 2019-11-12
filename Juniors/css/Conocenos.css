@@ -7,3 +7,12 @@ font-family: Impact,sans-serif;
 font-size: 2.5rem;
 /* 1 em = M; */
 }
+
+.jumbotron{
+	background-image: url(../img/conocenos.PNG);
+	font-size: 20px;
+	border-image-width: 100;
+
+	background-size: cover;
+
+}
