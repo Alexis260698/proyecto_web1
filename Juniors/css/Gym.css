@@ -73,8 +73,8 @@ footer{
     font-size: 22px;
 }
 
-p{
-	text: justify;
+div#info {
+	font-size: 30px;
 }
 .row{
     margin-top: 20px;
