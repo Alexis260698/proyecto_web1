@@ -13,6 +13,22 @@ font-size: 2.5rem;|
 	font-size: 50px;
 
 }
+#inicio{
+	font-size: 35px;
+}
+#spin{
+	font-size: 35px;
+}
+#conocenos{
+	font-size: 35px;
+}
+#area{
+		font-size: 35px;
+}
+
+#mma{
+		font-size: 35px;
+}
 
 footer{
     width: 100%;
@@ -24,8 +40,9 @@ footer{
 .container-footer-all{
     width: 100%;
     max-width: 1200px;
+		max-height: 500px;
     margin: auto;
-    padding: 40px;
+    padding: 30px;
 }
 
 .container-body{
@@ -56,6 +73,9 @@ footer{
     font-size: 22px;
 }
 
+div#info {
+	font-size: 30px;
+}
 .row{
     margin-top: 20px;
     display: flex;
@@ -139,4 +159,14 @@ footer{
     .colum3{
         margin-top: 40px;
     }
+}
+
+body
+{
+height: 700px;
+background: rgb(0,0,0);
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(249,234,19,1) 32%, rgba(125,48,209,1) 63%, rgba(168,0,252,1) 77%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(249,234,19,1) 32%,rgba(125,48,209,1) 63%,rgba(168,0,252,1) 77%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(249,234,19,1) 32%,rgba(125,48,209,1) 63%,rgba(168,0,252,1) 77%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
