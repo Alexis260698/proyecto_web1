@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,14 +6,17 @@
     <title>Junniors Gym</title>
     <link rel="stylesheet" href="css/Gym.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-
+   <script type="text/javascript" src="js/bootstrap.min.js"> </script>
+   <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+   <div class="">
+      <h1 class="jumbotron">MMA</h1>
+   </div>
 
   </head>
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    			<a href="#" class="navbar-brand" id="titulo"> Junniors GYM</a>
+    			<a href="#" class="navbar-brand" id="titulo">GYM</a>
     			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Menu" aria-controls="navbar-Menu"	aria-expanded="false">
     					<span class="navbar-toggler-icon"></span>
     			</button>
@@ -42,6 +44,7 @@
     													<a href="#" class="dropdown-item"> GYM</a>
     													<a href="#" class="dropdown-item"> Spinning</a>
     													<a href="#" class="dropdown-item"> Artes Marsiales</a>
+                              <a href="#" class="dropdown-item" id="MMA"> MMA</a>
     											</div>
 
     										</li>
@@ -69,17 +72,9 @@
         </div>
         <div class="carousel-item">
           <img src="img/jaula.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block" style="background-color: black">
-            <h5>¡¡ Vive la Experiencia !!</h5>
-              <p>La mejores instalaciones.</p>
-          </div>
         </div>
         <div class="carousel-item">
           <img src="img/zonaMancuernas.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block" style="background-color: black">
-            <h5>¡¡ Vive la Experiencia !!</h5>
-              <p>Los mejores aparatos</p>
-          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -108,44 +103,24 @@
                           <h5>Lunes - Viernes</h5>
                           <p>6:00 am - 10:30 pm</p>
                           <h5>Sabado</h5>
-                          <p>6:30 am - 2:00 pm</p>
+                          <p>6:00 am - 12:00 pm</p>
                           <h5>Domingo</h5>
-                          <p>9:30 am - 12:00 pm</p>
+                          <p>8:00 am - 12:00 pm</p>
                       </div>
                     </div>
 
                 </div> <!--Fin del formulario Horario-->
-
                 <div class="col">
                   <div class="card border-dark mb-3" style="max-width: 60rem;">
                       <div class="card-header" style="background-color: black">Descripción</div>
                         <div class="card-body text-primary">
-                            <h5 class="card-title" style="color: black">Gym</h5>
+                          <h5 class="card-title" style="color: black">Gym</h5>
                             <p class="card-text" style="color:black">Contamos con los mejores aparatos del momento, todos hechos en fabrica, contamos con pesas, mancuernas,
                                bancos,diversas maquinas, escaladoras, caminadoras, barras ect.</p>
                         </div>
                   </div>
 
-                </div> <!--Fin del footer text-->
-
-
-                <div class="col">
-                  <div class="card border-dark mb-3" style="max-width: 60rem;">
-                      <div class="card-header">Presio</div>
-                        <div class="card-body text-primary">
-                          <h5 class="card-title" style="color: black">Estudiante:</h5>
-                            <p class="card-text" style="color:black"> $300</p>
-                          <h5 class="card-title" style="color: black">General:</h5>
-                            <p class="card-text" style="color:black"> $350</p>
-
-
-
-
-                        </div>
-                  </div>
-
                 </div>
-
 
 
         </div>
@@ -239,8 +214,6 @@
 
       </footer>
 
-      <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-       <script type="text/javascript" src="js/bootstrap.min.js"> </script>
 
   </body>
 </html>
