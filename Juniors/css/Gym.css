@@ -13,6 +13,22 @@ font-size: 2.5rem;|
 	font-size: 50px;
 
 }
+#inicio{
+	font-size: 35px;
+}
+#spin{
+	font-size: 35px;
+}
+#conocenos{
+	font-size: 35px;
+}
+#area{
+		font-size: 35px;
+}
+
+#mma{
+		font-size: 35px;
+}
 
 footer{
     width: 100%;
@@ -57,6 +73,9 @@ footer{
     font-size: 22px;
 }
 
+p{
+	text: justify;
+}
 .row{
     margin-top: 20px;
     display: flex;

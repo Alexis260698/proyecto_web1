@@ -8,12 +8,12 @@
      <link rel="stylesheet" href="css/index.css">
 
      <title>Juniors Gym</title>
-	</head
+	</head>
      <body>
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 	<a href="#" class="navbar-brand"> Inicio</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" 
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
 	data-target="#navbar-Menu" aria-controls="navbar-Menu"
 	 aria-expanded="false">
 	<span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 	<a href="#" class="navbar-brand"> Inicio</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" 
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
 	data-target="#navbar-Menu" aria-controls="navbar-Menu"
 	 aria-expanded="false">
 	<span class="navbar-toggler-icon"></span>

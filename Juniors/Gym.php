@@ -14,7 +14,7 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    			<a href="#" class="navbar-brand" id="titulo"> Junniors GYM</a>
+    			<a href="#" class="navbar-brand" id="titulo">Gym</a>
     			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Menu" aria-controls="navbar-Menu"	aria-expanded="false">
     					<span class="navbar-toggler-icon"></span>
     			</button>
@@ -22,29 +22,25 @@
     			<div class="collapse navbar-collapse" id="navbar-Menu">
     						<ul class="navbar-nav mr-auto">
     										<li class="nav-item">
-    											 <a href="index.php" class="nav-link">Inicio</a>
+    											 <a href="Gym.php" class="nav-link" id="inicio">Inicio</a>
     										 </li>
 
     										<li class="nav-item">
-    											 <a href="#" class="nav-link">Hacerca de</a>
+    											 <a href="Spinning.html" class="nav-link" id="spin">Spinning</a>
     										</li>
 
                         <li class="nav-item">
-                           <a href="areaNiños.php" class="nav-link">Area para Niños</a>
+                           <a href="areaNiños.html" class="nav-link" id="area">Area para Niños</a>
                         </li>
 
-    										<li class="nav-item dropdown">
-    											 <a href="#" class="nav-link dropdown-toggle" id="dropdownAsig" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    												 	Servicios
-    											 </a>
+                        <li class="nav-item">
+                           <a href="Mma.php" class="nav-link" id="mma">MMA</a>
+                        </li>
 
-    											<div class="dropdown-menu" aria-labelledby="dropdownAsig">
-    													<a href="#" class="dropdown-item"> GYM</a>
-    													<a href="#" class="dropdown-item"> Spinning</a>
-    													<a href="#" class="dropdown-item"> Artes Marsiales</a>
-    											</div>
+                        <li class="nav-item">
+                           <a href="areaNiños.php" class="nav-link" id="conocenos">Conocenos</a>
+                        </li>
 
-    										</li>
     						</ul>
 
     			</div>
@@ -97,7 +93,7 @@
 
       <div class="container-Horario">
         <div class="row">
-                <div class="col-sm-4 mt-4">
+                <div class="col-sm-2 mt-2">
                     <div class="card	bg-light">
                       <div class="card-header	bg-dark text-white text-uppercase">
                         Horarios
@@ -116,35 +112,50 @@
 
                 </div> <!--Fin del formulario Horario-->
 
-                <div class="col">
+                <div class="col-sm-10 mt-10">
                   <div class="card border-dark mb-3" style="max-width: 60rem;">
-                      <div class="card-header" style="background-color: black">Descripción</div>
+                      <div class="card-header" style="color: black">Descripción</div>
                         <div class="card-body text-primary">
-                            <h5 class="card-title" style="color: black">Gym</h5>
-                            <p class="card-text" style="color:black">Contamos con los mejores aparatos del momento, todos hechos en fabrica, contamos con pesas, mancuernas,
+                          <p class="card-text" style="color:black">
+                            Se denomina gimnasio a un establecimiento en donde la gente se reúne para realizar actividad física.
+                            Los gimnasios suelen disponer diversos elementos dispuestos para este fin como por ejemplo pesas, juegos
+                            de poleas, cintas para correr, etc. Suelen tener también instructores que especifican que tipo de ejercicio
+                            es el más recomendado para la situación de cada persona.
+                          </p>
+                            <br>
+                            <h5 class="card-title" style="color: black">Gym:</h5>
+                              <p class="card-text" style="color:black">Contamos con los mejores aparatos del momento, todos hechos en fabrica, contamos con pesas, mancuernas,
                                bancos,diversas maquinas, escaladoras, caminadoras, barras ect.</p>
+
+                            <h5 class="card-title" style="color: black">Entrenadores:</h5>
+                               <p class="card-text" style="color:black">Contamos con entreadores 100% capasidados para tu apollo.
+                               los culaes se encuentran en todo momento a tu disposicion.
+                              Tanbien contamos con entrenadores personalizados para que supervicen, formen y aprueven todo tu entrenamiento</p>
+                              <br>
+
+
                         </div>
+
                   </div>
 
                 </div> <!--Fin del footer text-->
 
+                <div class="col-sm-2 mt-2">
+                    <div class="card	bg-light">
+                      <div class="card-header	bg-dark text-white text-uppercase">
+                        Presios
 
-                <div class="col">
-                  <div class="card border-dark mb-3" style="max-width: 60rem;">
-                      <div class="card-header">Presio</div>
-                        <div class="card-body text-primary">
-                          <h5 class="card-title" style="color: black">Estudiante:</h5>
-                            <p class="card-text" style="color:black"> $300</p>
-                          <h5 class="card-title" style="color: black">General:</h5>
-                            <p class="card-text" style="color:black"> $350</p>
+                      </div>
 
+                      <div class="card-body">
+                          <h5>Estudiante</h5>
+                          <p>$300</p>
+                          <h5>General</h5>
+                          <p>$350</p>
+                      </div>
+                    </div>
 
-
-
-                        </div>
-                  </div>
-
-                </div>
+                </div> <!--Fin del formulario Horario-->
 
 
 
@@ -174,7 +185,7 @@
 
                       <div class="row">
                           <img src="icon/facebook.png">
-                          <label>Siguenos en Facebook</label>
+                          <label>Junior's GYM #Moroleón.</label>
                       </div>
                       <div class="row">
                           <img src="icon/twitter.png">
@@ -182,9 +193,9 @@
                       </div>
                       <div class="row">
                           <img src="icon/instagram.png">
-                          <label>Siguenos en Instagram</label>
+                          <label>juniors_gym</label>
                       </div>
-                      <div class="row">
+            <!--          <div class="row">
                           <img src="icon/google-plus.png">
                           <label>Siguenos en Google Plus</label>
                       </div>
@@ -192,20 +203,18 @@
                           <img src="icon/pinterest.png">
                           <label>Siguenos en Pinteres</label>
                       </div>
-
+            -->
 
                   </div>
 
                   <div class="colum3">
 
-                      <h1>Informacion Contactos</h1>
+                      <h1>Informacion Contacto</h1>
 
                       <div class="row2">
                           <img src="icon/house.png">
-                          <label>La Romana,
-                          Republica Dominicana
-                          Manuel del Cabral
-                          Casa # 27</label>
+                          <label>Calle defensores de moroleon #4A
+                            38800 Moroleón</label>
                       </div>
 
                       <div class="row2">
