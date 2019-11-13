@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Junniors Gym</title>
-    <link rel="stylesheet" href="css/Gym.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Gym.css">
 
 
   </head>
@@ -47,7 +47,7 @@
     </nav> <!--fin del menu-->
 
 <!--Inicio del slide-->
-    <div class="container">
+    <div class="container-fluid">
       <div class="col-md-12">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -58,22 +58,22 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/areaPierna.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block" >
-            <h5>¡¡ Vive la Experiencia !!</h5>
+          <div class="carousel-caption d-none d-md-block color-fondo" >
+            <h5 style="font-size: 50px">¡¡ Vive la Experiencia !!</h5>
               <p>Se Parte de Junniors GYM.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="img/jaula.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>¡¡ Vive la Experiencia !!</h5>
+          <div class="carousel-caption d-none d-md-block color-fondo">
+            <h5> 1 ¡¡ Vive la Experiencia !!</h5>
               <p>La mejores instalaciones.</p>
-          </div>
+            </div>
         </div>
         <div class="carousel-item">
           <img src="img/areaPecho.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>¡¡ Vive la Experiencia !!</h5>
+          <div class="carousel-caption d-none d-md-block color-fondo">
+            <p class="texto-negritas" style="font-weight:900">¡¡ Vive la Experiencia !!</p>
               <p>Los mejores aparatos</p>
           </div>
         </div>
@@ -91,7 +91,7 @@
 
     </div> <!--Fin del slide-->
 
-      <div class="container-Horario">
+      <div class="container-Horario container-fluid">
         <div class="row">
                 <div class="col-sm-2 mt-2">
                     <div class="card	bg-light">
@@ -110,12 +110,27 @@
                       </div>
                     </div>
 
+
+                    <div class="card	bg-light mt-5">
+                      <div class="card-header	bg-dark text-white text-uppercase">
+                        Presios
+
+                      </div>
+
+                      <div class="card-body">
+                          <h5>Estudiante</h5>
+                          <p>$300</p>
+                          <h5>General</h5>
+                          <p>$350</p>
+                      </div>
+                    </div>
+
                 </div> <!--Fin del formulario Horario-->
 
-                <div class="col-sm-8 mt-8 ">
-                  <div class="card border-dark mb-3" style="max-width: 60rem;">
+                <div class="col-sm-10">
+                  <div class="card border-dark mb-3 fondo-transparente" >
                       <div class="card-header" id ="info">Descripción</div>
-                        <div class="card-body text-dark">
+                        <div class="card-body text-dark" >
                           <p class="card-text">
                             Se denomina gimnasio a un establecimiento en donde la gente se reúne para realizar actividad física.
                             Los gimnasios suelen disponer diversos elementos dispuestos para este fin como por ejemplo pesas, juegos
@@ -165,24 +180,6 @@
                   </div>
 
                 </div> <!--Fin del footer text-->
-
-                <div class="col-sm-2 mt-2">
-                    <div class="card	bg-light">
-                      <div class="card-header	bg-dark text-white text-uppercase">
-                        Presios
-
-                      </div>
-
-                      <div class="card-body">
-                          <h5>Estudiante</h5>
-                          <p>$300</p>
-                          <h5>General</h5>
-                          <p>$350</p>
-                      </div>
-                    </div>
-
-                </div> <!--Fin del formulario Horario-->
-
 
 
         </div>
