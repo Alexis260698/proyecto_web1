@@ -77,8 +77,12 @@ footer{
     font-size: 22px;
 }
 
-div#info {
+.parrafos-carusel p{
 	font-size: 30px;
+}
+
+div#info {
+	font-size: 40px;
 }
 .row{
     margin-top: 20px;
@@ -180,5 +184,10 @@ background-color: rgba(0, 0, 0, 0.5);
 }
 
 .fondo-transparente{
+  font-size: 30px;
 	background-color: rgba(255, 255,255, 0.3);
+}
+
+.fondo-transparente h5{
+	font-size:35px;
 }

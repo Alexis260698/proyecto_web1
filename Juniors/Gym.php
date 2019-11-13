@@ -55,7 +55,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner parrafos-carusel">
         <div class="carousel-item active">
           <img src="img/areaPierna.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block color-fondo" >
@@ -66,15 +66,15 @@
         <div class="carousel-item">
           <img src="img/jaula.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block color-fondo">
-            <h5> 1 ¡¡ Vive la Experiencia !!</h5>
+            <h5 style="font-size: 50px"> ¡¡ Pruevanos !!</h5>
               <p>La mejores instalaciones.</p>
             </div>
         </div>
         <div class="carousel-item">
           <img src="img/areaPecho.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block color-fondo">
-            <p class="texto-negritas" style="font-weight:900">¡¡ Vive la Experiencia !!</p>
-              <p>Los mejores aparatos</p>
+            <h5 style="font-size: 50px"> ¡¡ Conocenos !!</h5>
+              <p>Los mejores aparatos.</p>
           </div>
         </div>
       </div>
@@ -138,7 +138,7 @@
                             es el más recomendado para la situación de cada persona.
                           </p>
                             <br>
-                            <h5 class="card-title">Gym:</h5>
+                            <h5 class="card-title" style="font-size:35px">Gym:</h5>
                               <p class="card-text">Contamos con los mejores aparatos del momento, todos hechos en fabrica, contamos con pesas, mancuernas,
                                bancos,diversas maquinas, escaladoras, caminadoras, barras ect.</p>
 
@@ -147,9 +147,8 @@
                                los culaes se encuentran en todo momento a tu disposicion.
                               Tanbien contamos con entrenadores personalizados para que supervicen, formen y aprueven todo tu entrenamiento</p>
                               <br>
-                              <p>
-                                7 Beneficios de ir al gimnasio.
-                              </p>
+                                <h5 class="card-title">7 Beneficios de ir al gimnasio.:</h5>
+
                               <p>
                                 1 Hacer ejercicio nos hace sentir bien.
                               </p>
