@@ -14,7 +14,7 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    			<a href="#" class="navbar-brand" id="titulo">Gym</a>
+    			<a href="Gym.php" class="navbar-brand" id="titulo">Gym</a>
     			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Menu" aria-controls="navbar-Menu"	aria-expanded="false">
     					<span class="navbar-toggler-icon"></span>
     			</button>
@@ -22,7 +22,7 @@
     			<div class="collapse navbar-collapse" id="navbar-Menu">
     						<ul class="navbar-nav mr-auto">
     										<li class="nav-item">
-    											 <a href="Gym.php" class="nav-link" id="inicio">Inicio</a>
+    											 <a href="index.php" class="nav-link" id="inicio">Inicio</a>
     										 </li>
 
     										<li class="nav-item">
@@ -91,7 +91,7 @@
 
     </div> <!--Fin del slide-->
 
-      <div class="container-Horario container-fluid">
+      <div class="container-Horario container-fluid fondo-transparente">
         <div class="row">
                 <div class="col-sm-2 mt-2">
                     <div class="card	bg-light">
@@ -113,7 +113,7 @@
 
                     <div class="card	bg-light mt-5">
                       <div class="card-header	bg-dark text-white text-uppercase">
-                        Presios
+                        Precios
 
                       </div>
 
@@ -142,54 +142,48 @@
                               <p class="card-text">Contamos con los mejores aparatos del momento, todos hechos en fabrica, contamos con pesas, mancuernas,
                                bancos,diversas maquinas, escaladoras, caminadoras, barras ect.</p>
 
-                            <h5 class="card-title">Entrenadores:</h5>
-                               <p class="card-text">Contamos con entreadores 100% capasidados para tu apollo.
-                               los culaes se encuentran en todo momento a tu disposicion.
-                              Tanbien contamos con entrenadores personalizados para que supervicen, formen y aprueven todo tu entrenamiento</p>
-                              <br>
-                                <h5 class="card-title">7 Beneficios de ir al gimnasio.:</h5>
+                               <h5 class="card-title">Entrenadores:</h5>
+                                  <p class="card-text">Contamos con entreadores 100% capasidados para tu apollo.
+                                  los culaes se encuentran en todo momento a tu disposicion.
+                                 Tanbien contamos con entrenadores personalizados para que supervicen, formen y aprueven todo tu entrenamiento</p>
+                                 <br>
+                                   <h5 class="card-title">7 Beneficios de ir al gimnasio.:</h5>
 
-                              <p>
-                                1 Hacer ejercicio nos hace sentir bien.
-                              </p>
-                              <p>
-                                2 El ejercicio físico es un antidepresivo natural.
-                              </p>
+                                 <p>
+                                   1 Hacer ejercicio nos hace sentir bien.
+                                 </p>
+                                 <p>
+                                   2 El ejercicio físico es un antidepresivo natural.
+                                 </p>
 
-                              <p>
-                                3 El ejercicio regular nos proporciona más energía.
-                              </p>
+                                 <p>
+                                   3 El ejercicio regular nos proporciona más energía.
+                                 </p>
 
-                              <p>
-                                4 El ejercicio te hará dormir mejor.
-                              </p>
-                              <p>
-                                5 Mejora los problemas de corazón.
-                              </p>
+                                 <p>
+                                   4 El ejercicio te hará dormir mejor.
+                                 </p>
+                                 <p>
+                                   5 Mejora los problemas de corazón.
+                                 </p>
 
-                              <p>
-                                6 Refuerza tus músculos y huesos.
-                              </p>
-                              <p>
-                                  7 El ejercicio disminuye el estrés.
-                              </p>
+                                 <p>
+                                   6 Refuerza tus músculos y huesos.
+                                 </p>
+                                 <p>
+                                     7 El ejercicio disminuye el estrés.
+                                 </p>
 
-                        </div>
-
+                          </div>
                   </div>
 
-                </div> <!--Fin del footer text-->
-
-
-        </div>
+              </div>
       </div>
-
+</div>
+<!--Inicio del footer-->
       <footer>
-
          <div class="container-footer-all">
-
               <div class="container-body">
-
                   <div class="colum1">
                       <h1>Mas informacion de la compañia</h1>
 
@@ -208,23 +202,15 @@
                           <img src="icon/facebook.png">
                           <label>Junior's GYM #Moroleón.</label>
                       </div>
-                      <div class="row">
+                    <!--     <div class="row">
                           <img src="icon/twitter.png">
                           <label>Siguenos en Twitter</label>
                       </div>
+                        -->
                       <div class="row">
                           <img src="icon/instagram.png">
                           <label>juniors_gym</label>
                       </div>
-            <!--          <div class="row">
-                          <img src="icon/google-plus.png">
-                          <label>Siguenos en Google Plus</label>
-                      </div>
-                      <div class="row">
-                          <img src="icon/pinterest.png">
-                          <label>Siguenos en Pinteres</label>
-                      </div>
-            -->
 
                   </div>
 
@@ -269,7 +255,7 @@
 
       </footer>
 
-      <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+       <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
        <script type="text/javascript" src="js/bootstrap.min.js"> </script>
 
   </body>
