@@ -169,6 +169,10 @@ div#info {
     }
 }
 
+.centrar-horario{
+	text-align: center;
+}
+
 body
 {
 height: 700px;

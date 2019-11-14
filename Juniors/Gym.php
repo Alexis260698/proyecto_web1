@@ -14,7 +14,7 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    			<a href="#" class="navbar-brand" id="titulo">Gym</a>
+    			<a href="Gym.php" class="navbar-brand" id="titulo">Gym</a>
     			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Menu" aria-controls="navbar-Menu"	aria-expanded="false">
     					<span class="navbar-toggler-icon"></span>
     			</button>
@@ -22,7 +22,7 @@
     			<div class="collapse navbar-collapse" id="navbar-Menu">
     						<ul class="navbar-nav mr-auto">
     										<li class="nav-item">
-    											 <a href="Gym.php" class="nav-link" id="inicio">Inicio</a>
+    											 <a href="index.php" class="nav-link" id="inicio">Inicio</a>
     										 </li>
 
     										<li class="nav-item">
@@ -91,7 +91,7 @@
 
     </div> <!--Fin del slide-->
 
-      <div class="container-Horario container-fluid">
+      <div class="container-Horario container-fluid fondo-transparente">
         <div class="row">
                 <div class="col-sm-2 mt-2">
                     <div class="card	bg-light">
@@ -113,7 +113,7 @@
 
                     <div class="card	bg-light mt-5">
                       <div class="card-header	bg-dark text-white text-uppercase">
-                        Presios
+                        Precios
 
                       </div>
 
@@ -178,7 +178,7 @@
 
                   </div>
 
-                </div> <!--Fin del footer text-->
+                </div> <!--Fin del footer text-->+-
 
 
         </div>
@@ -208,10 +208,11 @@
                           <img src="icon/facebook.png">
                           <label>Junior's GYM #Moroleón.</label>
                       </div>
-                      <div class="row">
+                    <!--     <div class="row">
                           <img src="icon/twitter.png">
                           <label>Siguenos en Twitter</label>
                       </div>
+                        -->
                       <div class="row">
                           <img src="icon/instagram.png">
                           <label>juniors_gym</label>
@@ -269,7 +270,7 @@
 
       </footer>
 
-      <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+       <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
        <script type="text/javascript" src="js/bootstrap.min.js"> </script>
 
   </body>
