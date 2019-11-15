@@ -1,4 +1,4 @@
-﻿
+
 <?php ?>
 
  <!DOCTYPE html>
@@ -8,10 +8,15 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-      <title>Juniors Gym</title>
-     <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" type="text/css" href="css/Index.css">
+      <title>Juniors Gym</title>
+    
+
+     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"> </script>
+
 
       </head>
   <body>
@@ -32,12 +37,10 @@
                     <img src="img/areaPecho.jpg" class="card-img-top" alt="...">
                     <div class="card-img-overlay d-flex align-items-end">
                         <div class="card-body">
-                            <strong class="d-inline-block mb-2 text-primary">Programación</strong>
-                            <h3 class="card-title">Título</h3>
-                            <div class="mb-1 text-muted">01 Enero</div>
-                            <p class="card-text mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
-                                ipsum dolor sit, amet consectetur adipisicing elit. </p>
-                            <a href="#">Leer más</a>
+                            <h3 class="card-title">Gimnasio</h3>
+                            <p class="card-text mb-2">Contamos con los mejores aparatos
+                            además de instructores capacitados y certificados. </p>
+                            <a href="Gym.php">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -48,54 +51,50 @@
                     <img src="img/Spinning 3.jpeg" class="card-img-top" alt="...">
                     <div class="card-img-overlay d-flex align-items-end">
                         <div class="card-body">
-                            <strong class="d-inline-block mb-2 text-primary">Gadgets</strong>
-                            <h3 class="card-title">Título</h3>
-                            <div class="mb-1 text-muted">01 Enero</div>
-                            <p class="card-text mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
-                                ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                            <a href="#">Leer más</a>
+                            <h3 class="card-title">Spinning</h3>
+                            <p class="card-text mb-2">Clases de Spinning para principiantes,
+                            intermedios y avanzados.</p>
+                            <a href="Spinning.php">Más información</a>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
 
         <div class="row mb-2">
             <div class="col-md-6">
-                <div class="card text-white">
+                <div class="card text-black">
                     <img src="img/mma.jpg" class="card-img-top" alt="...">
                     <div class="card-img-overlay d-flex align-items-end">
                         <div class="card-body">
-                            <strong class="d-inline-block mb-2 text-primary">Gadgets</strong>
-                            <h3 class="card-title">Título</h3>
-                            <div class="mb-1 text-muted">01 Enero</div>
-                            <p class="card-text mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
-                                ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                            <a href="#">Leer más</a>
+                            <h3 class="card-title text-muted">MMA</h3>
+                            <p class="card-text mb-2">Clases de Artes marciales mixtas, para personas
+                            de diferentes edades.</p>
+                            <a href="Mma.php">Más información</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card text-white">
+                <div class="card text-white mb-5">
                     <img src="img/areaNiños4.jpg" class="card-img-top" alt="...">
                     <div class="card-img-overlay d-flex align-items-end">
                         <div class="card-body">
-                            <strong class="d-inline-block mb-2 text-primary">Programación</strong>
-                            <h3 class="card-title">Título</h3>
-                            <div class="mb-1 text-muted">01 Enero</div>
-                            <p class="card-text mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
-                                ipsum dolor sit, amet consectetur adipisicing elit. </p>
-                            <a href="#">Leer más</a>
+                            <h3 class="card-title">Area para niños</h3>
+                            <p class="card-text mb-2">Contamos con un espacio para que tus hijos jueguen y se entretengan mientras tu entrenas </p>
+                            <a href="areaNiños.html">Más información</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="container-footer-all">
 
+
+           <!--Inicio del footer-->
+      <footer>
+         <div class="container-footer-all">
               <div class="container-body">
-
                   <div class="colum1">
                       <h1>Mas informacion de la compañia</h1>
 
@@ -110,27 +109,19 @@
 
                       <h1>Redes Sociales</h1>
 
-                      <div class="row">
+                      <div class="row4">
                           <img src="icon/facebook.png">
                           <label>Junior's GYM #Moroleón.</label>
                       </div>
-                      <div class="row">
+                    <!--     <div class="row">
                           <img src="icon/twitter.png">
                           <label>Siguenos en Twitter</label>
                       </div>
-                      <div class="row">
+                        -->
+                      <div class="row4">
                           <img src="icon/instagram.png">
                           <label>juniors_gym</label>
                       </div>
-            <!--          <div class="row">
-                          <img src="icon/google-plus.png">
-                          <label>Siguenos en Google Plus</label>
-                      </div>
-                      <div class="row">
-                          <img src="icon/pinterest.png">
-                          <label>Siguenos en Pinteres</label>
-                      </div>
-            -->
 
                   </div>
 
@@ -175,9 +166,7 @@
 
       </footer>
 
-      <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-       <script type="text/javascript" src="js/bootstrap.min.js"> </script>
-
+       
   </body>
 </html>
 
