@@ -169,6 +169,10 @@ div#info {
     }
 }
 
+.centrar-horario{
+	text-align: center;
+}
+
 body
 {
     background-color: #14b4b4
