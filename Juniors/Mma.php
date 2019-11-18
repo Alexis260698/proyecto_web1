@@ -134,10 +134,9 @@
                       <div class="card-header" id ="info">Descripción</div>
                         <div class="card-body text-dark" >
                           <p class="card-text">
-                            Se denomina gimnasio a un establecimiento en donde la gente se reúne para realizar actividad física.
-                            Los gimnasios suelen disponer diversos elementos dispuestos para este fin como por ejemplo pesas, juegos
-                            de poleas, cintas para correr, etc. Suelen tener también instructores que especifican que tipo de ejercicio
-                            es el más recomendado para la situación de cada persona.
+                            Las artes marciales mixtas (conocida frecuentemente por sus siglas en inglés MMA, de Mixed martial arts)
+                            son la combinación de técnicas provenientes de distintas artes marciales y deportes de combate, generalmente
+                            se usa para la competición en el deporte de combate pero también para la defensa personal.
                           </p>
                             <br>
                             <h5 class="card-title" style="font-size:35px">Gym:</h5>
@@ -149,32 +148,15 @@
                                los culaes se encuentran en todo momento a tu disposicion.
                               Tanbien contamos con entrenadores personalizados para que supervicen, formen y aprueven todo tu entrenamiento</p>
                               <br>
-                                <h5 class="card-title">7 Beneficios de ir al gimnasio.:</h5>
+                                <h5 class="card-title">Beneficios de practicar artes marciales mixtas.</h5>
+                                <p>
+                                  <br>  1) Pierdes calorías y ganas condición física.
+                                  <br>  2) Reduces el estrés.
+                                  <br>  3) Incrementas tu fuerza y resistencia.
+                                  <br>  4) Te preparan para defenderte.
+                                  <br>  5) Aumentan tu flexibilidad y agilidad.
 
-                              <p>
-                                1 Hacer ejercicio nos hace sentir bien.
-                              </p>
-                              <p>
-                                2 El ejercicio físico es un antidepresivo natural.
-                              </p>
-
-                              <p>
-                                3 El ejercicio regular nos proporciona más energía.
-                              </p>
-
-                              <p>
-                                4 El ejercicio te hará dormir mejor.
-                              </p>
-                              <p>
-                                5 Mejora los problemas de corazón.
-                              </p>
-
-                              <p>
-                                6 Refuerza tus músculos y huesos.
-                              </p>
-                              <p>
-                                  7 El ejercicio disminuye el estrés.
-                              </p>
+                                </p>
 
                         </div>
 
@@ -193,42 +175,28 @@
               <div class="container-body">
 
                   <div class="colum1">
-                      <h1>Mas informacion de la compañia</h1>
+                    <h1>Mas informacion de la compañia</h1>
 
-                      <p>Esta compañia se dedica al desarrollo se software de software con un
-                      conjunto de cosas que no se lo que estoy escribiendo, este
-                      texto es solo para llenara informacion en el cuadro de informacion
-                      de la compañia.</p>
+                    <p>Somos un gimnasio de alto prestigio donde te
+                       brindamos el mejor servicio, atención, seguridad y
+                       responsabilidad con tu cuerpo. Contando con el mejor TEAM.
+                     </p>
 
                   </div>
 
                   <div class="colum2">
-
                       <h1>Redes Sociales</h1>
-
                       <div class="row">
                           <img src="icon/facebook.png">
-                          <label>Junior's GYM #Moroleón.</label>
+                          <a href="https://web.facebook.com/pg/Juniors-GYM-Morole%C3%B3n-334210720387183/posts/" style="color: white">
+                            Junior's GYM #Moroleón.
+                          </a>
                       </div>
-                  <!--    <div class="row">
-                          <img src="icon/twitter.png">
-                          <label>Siguenos en Twitter</label>
-                      </div>
-                  -->
                       <div class="row">
                           <img src="icon/instagram.png">
-                          <label>juniors_gym</label>
+                          <a href="http://www.instagram.com/juniors_gym/"
+                          style="color: white">Juniors_gym</a>
                       </div>
-            <!--          <div class="row">
-                          <img src="icon/google-plus.png">
-                          <label>Siguenos en Google Plus</label>
-                      </div>
-                      <div class="row">
-                          <img src="icon/pinterest.png">
-                          <label>Siguenos en Pinteres</label>
-                      </div>
-            -->
-
                   </div>
 
                   <div class="colum3">
@@ -243,7 +211,7 @@
 
                       <div class="row2">
                           <img src="icon/smartphone.png">
-                          <label>+1-829-395-2064</label>
+                          <label>4451234512</label>
                       </div>
 
                       <div class="row2">
@@ -267,8 +235,7 @@
                           <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
                       </div>
                   </div>
-
-              </div>
+                </div>
 
       </footer>
 
