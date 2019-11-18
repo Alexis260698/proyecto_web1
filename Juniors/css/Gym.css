@@ -175,7 +175,7 @@ div#info {
 
 body
 {
-    background-color: #14b4b4
+    background-color: #14b4b4;
 }
 
 .color-fondo{
@@ -189,4 +189,101 @@ background-color: rgba(0, 0, 0, 0.5);
 
 .fondo-transparente h5{
 	font-size:35px;
+}
+
+.boton_personalizado{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+    font-family: "calibri light"
+    font-weight: 100;
+    background-color: #FDFEFE;
+    border-radius: 1px;
+    border: 0px solid #808B96;
+  }
+
+.boton_personalizado:hover{
+   background-color: #2ECC71;
+   color: #FDFEFE;
+   box-shadow: inset 0 0 0 0px #17202A;
+  }
+
+ .boton_personalizado2{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+    font-family: "calibri light"
+    font-weight: 100;
+    background-color: #FDFEFE;
+    border-radius: 1px;
+    border: 0px solid #808B96;
+  }
+
+.boton_personalizado2:hover{
+   background-color: #E74C3C;
+   color: #FDFEFE;
+   box-shadow: inset 0 0 0 0px #17202A;
+  }
+
+	.box {
+   border-radius: 5px;
+   outline: none;
+   border: 5px solid #FDFEFE;
+
+ }
+
+ .body{
+  margin:auto;
+  background-color: white;
+  font-size: 20px;
+  font-family: "calibri light";
+
+ }
+ .body:hover{
+
+background-color: #14b4b4;
+
+ }
+
+ .texto{
+
+opacity:1;
+ font-family: "calibri light"
+     -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+  margin:auto;
+  background-color: white;
+  font-size: 100px;
+  font-family: "calibri light"
+
+}
+
+.texto:hover{
+	  background-color: #14b4b4;
+}
+
+.imagen{
+ text-align: center;
+ width: 200px;
+ }
+
+.imagen:hover{
+	-webkit-animation: swing 1s ease;
+         animation: swing 1s ease;
+         -webkit-animation-iteration-count: 1;
+         animation-iteration-count: 1;
+}
+
+.head{
+ margin:auto;
+ background-color: black;
+
+}
+.head:hover{
+
+ margin:auto;
+ background-color:#14b4b4;
+
+
 }
