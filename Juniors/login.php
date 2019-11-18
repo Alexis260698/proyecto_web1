@@ -1,34 +1,36 @@
 <?php
 $usuario=$_POST['usuario'];
-$pass=$_POST['pass'];
-$a=0;
-include("conexion.php");
+$contrasena=$_POST['pass'];
+$entro = false;
+
 echo "el usuario es ".$usuario;
-echo "la contraseña es ". $pass;
+echo "la contraseña es ".$contrasena;
 
-
+include("conexion.php");
 $mysql= new mysqli($server,$user,$pass,$bd);
 $listaUser = $mysql->query("select * from users");
-var_dump($listaUser);
 foreach ($listaUser as $user) {
-	if ($user['usuario']==$usuario) {
+var_dump($user);
+	if ($user['Usuario']==$usuario) {
 		$a = $a + 1;
-		if ($user['contrasena']==$pass) {
-
-      if ($user['tipo'] == "admin") {
-          	header("Location: index.php");
+    echo "entro al nombre";
+    echo $user['Contrasena']."==".$contrasena;
+		if ($user['Contrasena']==$contrasena) {
+      echo "entro al contraseña";
+      $entro = true;
+      if ($user['Tipo'] == "admin") {
+          	header("Location: gym.html");
       }else{
         	header("Location: index.php");
       }
 
+                                    }
+                                  }
+                                }
+if ($entro) {
 
-		}else{
-			header("Location:login.html");
-
-		}
-	}else{
-		header("Location:login.html");
-	}
+}else{
+header("Location: login.html");
 }
 
 ?>

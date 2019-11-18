@@ -33,7 +33,7 @@
                         </li>
 
                         <li class="nav-item">
-                           <a href="Gym.php" class="nav-link" id="mma">GYM</a>
+                           <a href="Gym.html" class="nav-link" id="mma">GYM</a>
                         </li>
 
                         <li class="nav-item">
