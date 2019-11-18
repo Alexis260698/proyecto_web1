@@ -5,10 +5,9 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/Spinning.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/Gym.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/spin.css">
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"> </script>
 	<title>Spinning</title>
@@ -56,7 +55,7 @@
 	</div>
 
 	<div class="col-sm-12">
-        <div class="card border-dark mb-3 fondo-transparente" >
+        <div class="card border-dark mb-3 fondo-transparente">
             <div class="card-header" id ="info">Sabias que...</div>
                 <div class="card-body text-dark" >
                     <p class="card-text">
@@ -111,6 +110,143 @@
     </div>
       </div>
     </div>
+
+<div class="tipos">
+  <img src="img/tiposclases.PNG">
+</div>
+
+
+     <div class="container-Horario container-fluid fondo-transparente">
+        <div class="row">
+                <div class="col-sm-2 mt-2">
+                    <div class="card  bg-light">
+                      <div class="card-header bg-dark text-white text-uppercase">
+                        Horarios
+                      </div>
+                      <div class="card-body hora">
+                          <h5>Lunes - Viernes</h5>
+                          <p>7:00 am - 8:00 am</p>
+                          <p>8:00 am - 9:00 am</p>
+                      </div>
+                    </div>
+
+
+                    <div class="card bg-light mt-5">
+                      <div class="card-header bg-dark text-white text-uppercase">
+                        Precios
+                      </div>
+
+                      <div class="card-body hora">
+                          <h5>Normal</h5>
+                          <p>$130</p>
+                          <h5>Promo: Gym + Spinning</h5>
+                          <p>$480</p>
+                      </div>
+                    </div>
+
+                </div> <!--Fin del formulario Horario-->
+
+                <div class="col-sm-10">
+                  <div class="card border-dark mb-3 fondo-transparente" >
+                      <div class="card-header" id ="info">Mas info...</div>
+                        <div class="card-body text-dark" >
+                          <p class="card-text">
+                           En cada clase de Spinning vivirás una experiencia de cycling en donde puedes conectar mente y cuerpo. Además de ser un ejercicio completo y funcional de cardio y fuerza, llevarás tu cuerpo más allá de lo que piensas que es tu límite.
+                          </p>
+                            <br>
+                            <h5 class="card-title" style="font-size:35px">Contamos con:</h5>
+                            <li>Más de 15 bicicletas</li>
+                            <li>Instructor para clases</li>
+                            <li>Calidad de clases</li>
+                            <li>Clases dinamicas</li>
+
+                              <br>
+                               <h5 class="card-title"  style="font-size:35px">Beneficios:</h5>
+                                  <ol>
+                                    Permite fortalecer y tonificar nuestro tren inferior.
+                                  </ol>
+                                  <ol>
+                                    Las sesiones de spinning combinan entrenamiento aeróbico y anaeróbico gracias a los cambios de ritmo.
+                                  </ol>
+                                  <ol>
+                                    Quema grasa y reduce el volumen.
+                                  </ol>
+                                  <ol>
+                                    Si se realiza de forma adecuada, cuidando sobre todo la postura sobre la bici, se trabaja muy intensamente el core (la zona abdominal).
+                                  </ol>
+                                  <ol>
+                                    El spinning es un muy buen remedio anti-stress: aparte de la producción de endorfinas que conseguimos a través del ejercicio, favorece la concentración.
+                                  </ol>
+                          </div>
+                  </div>
+              </div>
+      </div>
+</div>
+
+ <footer>
+         <div class="container-footer-all">
+              <div class="container-body">
+                  <div class="colum1">
+                      <h1>Mas informacion de la compañia</h1>
+                      <p>Somos un gimnasio de alto prestigio donde te 
+                          brindamos el mejor servicio, atención, seguridad y 
+                          responsabilidad con tu cuerpo. Contando con el mejor TEAM.</p>
+                  </div>
+                  <div class="colum2">
+                      <h1>Redes Sociales</h1>
+                      <div class="row">
+                          <img src="icon/facebook.png">
+                          <a href="https://web.facebook.com/pg/Juniors-GYM-Morole%C3%B3n-334210720387183/posts/" style="color: white">
+                            Junior's GYM #Moroleón.
+                          </a>
+                      </div>
+                      <div class="row">
+                          <img src="icon/instagram.png">
+                          <a href="http://www.instagram.com/juniors_gym/" 
+                          style="color: white">Juniors_gym</a>
+                      </div>
+                  </div>
+
+                  <div class="colum3">
+
+                      <h1>Informacion Contacto</h1>
+
+                      <div class="row2">
+                          <img src="icon/house.png">
+                          <label>Calle defensores de moroleon #4A
+                            38800 Moroleón</label>
+                      </div>
+
+                      <div class="row2">
+                          <img src="icon/smartphone.png">
+                          <label>445</label>
+                      </div>
+
+                      <div class="row2">
+                          <img src="icon/contact.png">
+                           <label>s16120271@alumnos.itsur.edu.mx</label>
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          <div class="container-footer">
+                 <div class="footer">
+                      <div class="copyright">
+                          © 2019 Todos los Derechos Reservados | <a href="">ITSUR</a>
+                      </div>
+
+                      <div class="information">
+                          <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                      </div>
+                  </div>
+
+              </div>
+
+      </footer>
 
 </body>
 </html>

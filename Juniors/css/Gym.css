@@ -175,12 +175,7 @@ div#info {
 
 body
 {
-height: 700px;
-background: rgb(0,0,0);
-background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(249,234,19,1) 32%, rgba(125,48,209,1) 63%, rgba(168,0,252,1) 77%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(249,234,19,1) 32%,rgba(125,48,209,1) 63%,rgba(168,0,252,1) 77%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(249,234,19,1) 32%,rgba(125,48,209,1) 63%,rgba(168,0,252,1) 77%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    background-color: #14b4b4
 }
 
 .color-fondo{
