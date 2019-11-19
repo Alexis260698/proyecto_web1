@@ -1,16 +1,6 @@
 <?php
-/*require("conexion.php");
-$conexion = new mysqli($server,$user,$pass,$bd,$auth_plugin);
-if (mysqli_connect_error()) {
-  // code...
-echo "no conectado", mysqli_connect_error();
-  exit();
-}else{
-  echo "conectado";
-}
-*/
 
-$servername = "localhost";
+/*$servername = "localhost";
 $database = "juniors_gym";
 $username = "root";
 $password = "root";
@@ -23,4 +13,12 @@ if (!$conn) {
 }
 echo "Connected successfully";
 mysqli_close($conn);
+*/
+$conexion = new mysqli("localhost","root","root","juniors_gym");
+
+if ($conexion) {
+  echo "conectado";
+}else{
+  echo "error conexion";
+}
 ?>

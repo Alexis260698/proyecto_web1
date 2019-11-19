@@ -1,0 +1,119 @@
+.body{
+
+
+background-color:#FADBD8;
+
+
+}
+
+.global {
+	position: absolute;
+    top: 0px; left: 0px;
+    width: 20%; 
+    height:100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	background: #FADBD8;
+	margin-bottom: all;
+}
+.mensajes {
+	height: auto;
+}
+.texto{
+
+
+
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1);
+margin:auto;
+
+background-color:#F5B7B1 ;
+font-size: 40px;
+font-family: "Calibri Light"
+
+}
+.texto:hover{
+   
+    background-color:#FDFEFE;
+    -webkit-transform:scale(1);
+    transform:scale(1);
+}
+
+.imagen:hover {
+-webkit-animation: swing 1s ease;
+animation: swing 1s ease;
+-webkit-animation-iteration-count: 1;
+animation-iteration-count: 1;
+}
+
+
+@-webkit-keyframes swing
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+@keyframes swing
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}

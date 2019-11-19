@@ -19,7 +19,7 @@ var_dump($user);
       echo "entro al contraseña";
       $entro = true;
       if ($user['Tipo'] == "admin") {
-          	header("Location: gym.html");
+          	header("Location: menu.html");
       }else{
         	header("Location: index.php");
       }

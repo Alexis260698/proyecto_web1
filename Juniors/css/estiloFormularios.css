@@ -1,0 +1,196 @@
+
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+}
+
+.imagen{
+ text-align: center;
+ width: 200px;
+ }
+.imagen:hover {
+ -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+.head{
+ margin:auto;
+ background-color: #FADBD8;
+
+opacity:1;
+ font-family: "calibri light"
+     -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+  margin:auto;
+  background-color: #3498DB;
+  font-size: 30px;
+  font-family: "calibri light"
+
+}
+.head:hover{
+
+ margin:auto;
+ background-color:#FADBD8;
+    -webkit-transform:scale(1);
+    transform:scale(1);
+     
+ 
+
+}
+.body{
+ margin:auto;
+ background-color: #FADBD8;
+ font-size: 20px;
+ font-family: "calibri light";
+
+
+}
+.body:hover{
+	
+ 
+ background-color:rgb(252, 211, 207);
+ 
+     
+}
+.texto{
+
+opacity:1;
+ font-family: "calibri light"
+     -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+  margin:auto;
+  background-color: #FADBD8;
+  font-size: 100px;
+  font-family: "calibri light"
+
+}
+.texto:hover{
+   
+    background-color:rgb(252, 211, 207);
+    -webkit-transform:scale(1);
+    transform:scale(1);
+     
+
+
+
+  
+}
+.box {
+   border-radius: 5px;
+   outline: none;
+   border: 5px solid #FDFEFE;
+   
+ }
+
+
+.boton_personalizado{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+    font-family: "calibri light"
+    font-weight: 100;
+    background-color: #FDFEFE;
+    border-radius: 1px;
+    border: 0px solid #808B96;
+  }
+
+.boton_personalizado:hover{
+   background-color: #2ECC71;
+   color: #FDFEFE;
+   box-shadow: inset 0 0 0 0px #17202A;
+  }
+
+ .boton_personalizado2{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+    font-family: "calibri light"
+    font-weight: 100;
+    background-color: #FDFEFE;
+    border-radius: 1px;
+    border: 0px solid #808B96;
+  }
+
+.boton_personalizado2:hover{
+   background-color: #E74C3C;
+   color: #FDFEFE;
+   box-shadow: inset 0 0 0 0px #17202A;
+  }
+
+
+@-webkit-keyframes swing
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
+@keyframes swing
+{
+15%
+{
+-webkit-transform: translateX(5px);
+transform: translateX(5px);
+}
+30%
+{
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
+}
+50%
+{
+-webkit-transform: translateX(3px);
+transform: translateX(3px);
+}
+65%
+{
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+}
+80%
+{
+-webkit-transform: translateX(2px);
+transform: translateX(2px);
+}
+100%
+{
+-webkit-transform: translateX(0);
+transform: translateX(0);
+}
+}
