@@ -12,16 +12,30 @@
   </head>
   <body>
 
+
     <?php
 
     $lista_servicios = array( );
+    $horarioNormal = "";
+    $horarioFin ="";
+    $precio;
+    $nombre_service = strtoupper("mma");
 $contador=0;
 
              include ("calis.php");
              $query="SELECT * FROM servicio";
              $resultado=$conexion->query($query);
+
              while ($row=$resultado->fetch_assoc()) {
+
                $lista_servicios[$contador] = $row['nombre'];
+               $evaluar = strtoupper($row['nombre']);
+               if ($nombre_service == $evaluar) {
+                 $horarioNormal = $row['horarioNormal'];
+                 $horarioFin = $row['horarioFin'];
+                 $precio = $row['precio'];
+               }
+
                $contador++;
         }
 
@@ -116,15 +130,12 @@ $contador=0;
                       </div>
 
                       <div class="card-body">
-                          <h5>Lunes - Viernes</h5>
-                          <p>10:00 am-12:00 pm <br>
-                            4:00 pm a 6:00 pm
-                          </p>
-
-                          <h5>Sabado</h5>
-                          <p>10:00 am - 11:30 am</p>
-                          <h5>Domingo</h5>
-                          <p>9:30 am - 12:00 pm</p>
+                        <h5>Lunes - Viernes</h5>
+                        <p> <?php echo $horarioNormal ?> </p>
+                        <h5>Sabado</h5>
+                        <p><?php echo $horarioFin; ?></p>
+                        <h5>Domingo</h5>
+                        <p><?php echo $horarioFin ?></p>
                       </div>
                     </div>
 
@@ -136,10 +147,12 @@ $contador=0;
                       </div>
 
                       <div class="card-body">
-                          <h5>Estudiante</h5>
-                          <p>$300</p>
-                          <h5>General</h5>
-                          <p>$350</p>
+                        <h5>Estudiante</h5>
+                        <p><?php
+                        $precio1 = $precio -100;
+                        echo $precio1 ?></p>
+                        <h5>General</h5>
+                        <p><?php echo $precio ?></p>
                       </div>
                     </div>
 

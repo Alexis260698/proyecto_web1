@@ -12,7 +12,7 @@
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" type="text/css" href="css/Index.css">
       <title>Juniors Gym</title>
-    
+
 
      <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"> </script>
@@ -21,16 +21,16 @@
       </head>
   <body>
 
-    
+
 
      <div class="jumbotron">
 
          <h1>Junniors Gym</h1>
          <div class="logo">
-               </div> 
+               </div>
              </div>
              </div>
-        </div> 
+        </div>
         <div class="row mb-2">
             <div class="col-md-6">
                 <div class="card text-white">
@@ -166,11 +166,6 @@
 
       </footer>
 
-       
+
   </body>
 </html>
-
-
-
-  
-   

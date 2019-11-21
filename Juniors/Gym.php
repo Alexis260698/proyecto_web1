@@ -16,13 +16,26 @@
     <?php
 
     $lista_servicios = array( );
+    $horarioNormal = "";
+    $horarioFin ="";
+    $precio;
+    $nombre_service = strtoupper("gym");
 $contador=0;
 
              include ("calis.php");
              $query="SELECT * FROM servicio";
              $resultado=$conexion->query($query);
+
              while ($row=$resultado->fetch_assoc()) {
+
                $lista_servicios[$contador] = $row['nombre'];
+               $evaluar = strtoupper($row['nombre']);
+               if ($nombre_service == $evaluar) {
+                 $horarioNormal = $row['horarioNormal'];
+                 $horarioFin = $row['horarioFin'];
+                 $precio = $row['precio'];
+               }
+
                $contador++;
         }
 
@@ -118,11 +131,11 @@ $contador=0;
 
                       <div class="card-body">
                           <h5>Lunes - Viernes</h5>
-                          <p>6:00 am - 10:30 pm</p>
+                          <p> <?php echo $horarioNormal ?> </p>
                           <h5>Sabado</h5>
-                          <p>6:30 am - 2:00 pm</p>
+                          <p><?php echo $horarioFin; ?></p>
                           <h5>Domingo</h5>
-                          <p>9:30 am - 12:00 pm</p>
+                          <p><?php echo $horarioFin ?></p>
                       </div>
                     </div>
 
@@ -135,9 +148,11 @@ $contador=0;
 
                       <div class="card-body">
                           <h5>Estudiante</h5>
-                          <p>$300</p>
+                          <p><?php
+                          $precio1 = $precio -100;
+                          echo $precio1 ?></p>
                           <h5>General</h5>
-                          <p>$350</p>
+                          <p><?php echo $precio ?></p>
                       </div>
                     </div>
 

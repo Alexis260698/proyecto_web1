@@ -17,19 +17,31 @@
 	<?php
 
 	$lista_servicios = array( );
+	$horarioNormal = "";
+	$horarioFin ="";
+	$precio;
+	$nombre_service = strtoupper("Area para niños");
 $contador=0;
 
 					 include ("calis.php");
 					 $query="SELECT * FROM servicio";
 					 $resultado=$conexion->query($query);
+
 					 while ($row=$resultado->fetch_assoc()) {
+
 						 $lista_servicios[$contador] = $row['nombre'];
+						 $evaluar = strtoupper($row['nombre']);
+						 if ($nombre_service == $evaluar) {
+							 $horarioNormal = $row['horarioNormal'];
+							 $horarioFin = $row['horarioFin'];
+							 $precio = $row['precio'];
+						 }
+
 						 $contador++;
 			}
 
 			$contador = 0;
 ?>
-
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 				<a href="index.html" class="navbar-brand" id="titulo">Inicio</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Menu" aria-controls="navbar-Menu"	aria-expanded="false">
@@ -141,7 +153,7 @@ $contador=0;
                       </div>
                       <div class="card-body">
                           <h4>Por hora</h4>
-                          <p>$25</p>
+                          <p><?php echo $precio ?></p>
                           <p>Tus hijos podran disfrutar de nuestras instalaciones de juegos</p>
                       </div>
                     </div>
