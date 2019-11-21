@@ -12,37 +12,53 @@
   </head>
   <body>
 
+    <?php
+
+    $lista_servicios = array( );
+$contador=0;
+
+             include ("calis.php");
+             $query="SELECT * FROM servicio";
+             $resultado=$conexion->query($query);
+             while ($row=$resultado->fetch_assoc()) {
+               $lista_servicios[$contador] = $row['nombre'];
+               $contador++;
+        }
+
+        $contador = 0;
+?>
+
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <a href="Mma.php" class="navbar-brand" id="titulo"> MMA </a>
-    			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Menu" aria-controls="navbar-Menu"
-          	aria-expanded="false">
-    					<span class="navbar-toggler-icon"></span>
-    			</button>
+          <a href="index.html" class="navbar-brand" id="titulo">Inicio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Menu" aria-controls="navbar-Menu"	aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+          </button>
 
-    			<div class="collapse navbar-collapse" id="navbar-Menu">
-    						<ul class="navbar-nav mr-auto">
-    										<li class="nav-item">
-                          <a href="index.php" class="nav-link" id="inicio">Inicio</a>
-                        </li>
-    										<li class="nav-item">
-    											 <a href="Spinning.html" class="nav-link" id="spin">Spinning</a>
-    										</li>
+          <div class="collapse navbar-collapse" id="navbar-Menu">
+                <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                           <a href=" <?php echo $lista_servicios[$contador]; ?>.php" class="nav-link" id="inicio"><?php echo $lista_servicios[$contador]; ?></a>
+                         </li>
 
                         <li class="nav-item">
-                           <a href="areaNiños.html" class="nav-link" id="area">Area para Niños</a>
+                           <a href=" <?php echo $lista_servicios[$contador+1]; ?>.php" class="nav-link" id="spin"><?php echo $lista_servicios[$contador+1]; ?></a>
                         </li>
 
                         <li class="nav-item">
-                           <a href="Gym.html" class="nav-link" id="mma">GYM</a>
+                           <a href=" <?php echo $lista_servicios[$contador+2]; ?>.php" class="nav-link" id="area"><?php echo $lista_servicios[$contador+2]; ?></a>
+                        </li>
+
+                        <li class="nav-item">
+                           <a href=" <?php echo $lista_servicios[$contador+3]; ?>.php" class="nav-link" id="mma"><?php echo $lista_servicios[$contador+3]; ?></a>
                         </li>
 
                         <li class="nav-item">
                            <a href="conocenos.php" class="nav-link" id="conocenos">Conocenos</a>
                         </li>
 
-    						</ul>
+                </ul>
 
-    			</div>
+          </div>
     </nav> <!--fin del menu-->
 
 <!--Inicio del slide-->

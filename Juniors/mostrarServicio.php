@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/estiloFormularios.css">
-	<title>MostrarUsuario</title>
+	<title>Mostrar Servicio</title>
 </head>
 <body>
 	<div class="body">
@@ -13,7 +13,7 @@
 			<tr>
 
 
-		<th colspan="5">Usuarios</th>
+		<th colspan="5">Servicios</th>
 
 			</tr>
 
@@ -21,28 +21,28 @@
 		<tbody>
 
 			<tr>
-
-
+				<td>id_Servicio</td>
 				<td>Nombre</td>
-				<td>Password</td>
-				<td>Tipo</td>
-
-
+				<td>Precio</td>
+        <td>Horario Normal</td>
+				<td>Horario Fin de Semana</td>
 			</tr>
 
 			<?php
 
 			include ("calis.php");
-			$query="SELECT * FROM users";
+			$query="SELECT * FROM servicio";
 			$resultado=$conexion->query($query);
 			while ($row=$resultado->fetch_assoc()) {
 
 			?>
 
 			<tr>
-				<td><?php echo $row['Usuario']; ?></td>
-				<td><?php echo $row['Contrasena']; ?></td>
-				<td><?php echo $row['Tipo']; ?></td>
+				<td><?php echo $row['id_servicio']; ?></td>
+				<td><?php echo $row['nombre']; ?></td>
+				<td><?php echo $row['precio']; ?></td>
+        <td><?php echo $row['horarioNormal']; ?></td>
+        <td><?php echo $row['horarioFin']; ?></td>
 
 			</tr>
 

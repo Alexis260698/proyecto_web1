@@ -16,42 +16,63 @@
 <body>
 
 			<!-- CODIGO PARA NAVBAR -->
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #333333">
-			<a href="#" class="navbar-brand">Spinning</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false"> 
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarMenu">
-				<ul class="navbar-nav mr-auto">
-					<li class="btn btn-link">
-						<a href="index.php" class="nav-link">Inicio</a>
-					</li>
-					<li class="btn btn-link">
-						<a href="Gym.php" class="nav-link">Gym</a>
-					</li>
-					<li class="btn btn-link">
-						<a href="areaNiños.html" class="nav-link">Área de Niños</a>
-					</li>
-					<li class="btn btn-link">
-						<a href="#" class="nav-link">Zumba</a>
-					</li>
-					<li class="btn btn-link">
-						<a href="#" class="nav-link">MMA</a>
-					</li>
-					<li class="btn btn-link">
-						<a href="#" class="nav-link">Conocenos</a>
-					</li>
-				</ul>
-			</div>
-	</nav>
+			<?php
+
+	    $lista_servicios = array( );
+	$contador=0;
+
+	             include ("calis.php");
+	             $query="SELECT * FROM servicio";
+	             $resultado=$conexion->query($query);
+	             while ($row=$resultado->fetch_assoc()) {
+	               $lista_servicios[$contador] = $row['nombre'];
+	               $contador++;
+	        }
+
+	        $contador = 0;
+	?>
+
+	    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	          <a href="index.html" class="navbar-brand" id="titulo">Inicio</a>
+	          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Menu" aria-controls="navbar-Menu"	aria-expanded="false">
+	              <span class="navbar-toggler-icon"></span>
+	          </button>
+
+	          <div class="collapse navbar-collapse" id="navbar-Menu">
+	                <ul class="navbar-nav mr-auto">
+	                        <li class="nav-item">
+	                           <a href=" <?php echo $lista_servicios[$contador]; ?>.php" class="nav-link" id="inicio"><?php echo $lista_servicios[$contador]; ?></a>
+	                         </li>
+
+	                        <li class="nav-item">
+	                           <a href=" <?php echo $lista_servicios[$contador+1]; ?>.php" class="nav-link" id="spin"><?php echo $lista_servicios[$contador+1]; ?></a>
+	                        </li>
+
+	                        <li class="nav-item">
+	                           <a href=" <?php echo $lista_servicios[$contador+2]; ?>.php" class="nav-link" id="area"><?php echo $lista_servicios[$contador+2]; ?></a>
+	                        </li>
+
+	                        <li class="nav-item">
+	                           <a href=" <?php echo $lista_servicios[$contador+3]; ?>.php" class="nav-link" id="mma"><?php echo $lista_servicios[$contador+3]; ?></a>
+	                        </li>
+
+	                        <li class="nav-item">
+	                           <a href="conocenos.php" class="nav-link" id="conocenos">Conocenos</a>
+	                        </li>
+
+	                </ul>
+
+	          </div>
+	    </nav> <!--fin del menu-->
+
 	<!--FIN NAV BAR-->
 
 	<div class="row">
 		<div class="col">
 			<div class="mt-5">
-				<h1 class="title" align="center">Spinning</h1> 
+				<h1 class="title" align="center">Spinning</h1>
 			</div>
-		</div>	
+		</div>
 	</div>
 
 	<div class="col-sm-12">
@@ -88,7 +109,7 @@
               <p>Se Parte de Junior's GYM.</p>
           </div>
         </div>
-        
+
         <div class="carousel-item">
           <img src="img/Spinning 1.jpeg" class="d-block w-100" alt="...">
         </div>
@@ -188,8 +209,8 @@
               <div class="container-body">
                   <div class="colum1">
                       <h1>Mas informacion de la compañia</h1>
-                      <p>Somos un gimnasio de alto prestigio donde te 
-                          brindamos el mejor servicio, atención, seguridad y 
+                      <p>Somos un gimnasio de alto prestigio donde te
+                          brindamos el mejor servicio, atención, seguridad y
                           responsabilidad con tu cuerpo. Contando con el mejor TEAM.</p>
                   </div>
                   <div class="colum2">
@@ -202,7 +223,7 @@
                       </div>
                       <div class="row">
                           <img src="icon/instagram.png">
-                          <a href="http://www.instagram.com/juniors_gym/" 
+                          <a href="http://www.instagram.com/juniors_gym/"
                           style="color: white">Juniors_gym</a>
                       </div>
                   </div>
