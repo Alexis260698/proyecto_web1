@@ -20,7 +20,7 @@
     $horarioFin ="";
     $precio;
     $nombre_service = strtoupper("gym");
-$contador=0;
+    $contador=0;
 
              include ("calis.php");
              $query="SELECT * FROM servicio";
@@ -40,6 +40,8 @@ $contador=0;
         }
 
         $contador = 0;
+
+
 ?>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -48,32 +50,35 @@ $contador=0;
     					<span class="navbar-toggler-icon"></span>
     			</button>
 
-    			<div class="collapse navbar-collapse" id="navbar-Menu">
-    						<ul class="navbar-nav mr-auto">
-    										<li class="nav-item">
-    											 <a href="<?php echo $lista_servicios[$contador]; ?>.php" class="nav-link" id="inicio"><?php echo $lista_servicios[$contador]; ?></a>
-    										 </li>
+        			<div class="collapse navbar-collapse" id="navbar-Menu">
+        						<ul class="navbar-nav mr-auto">
 
-    										<li class="nav-item">
-    											 <a href=" <?php echo $lista_servicios[$contador+1]; ?>.php" class="nav-link" id="spin"><?php echo $lista_servicios[$contador+1]; ?></a>
-    										</li>
+                      <?php
 
-                        <li class="nav-item">
-                           <a href=" <?php echo $lista_servicios[$contador+2]; ?>.php" class="nav-link" id="area"><?php echo $lista_servicios[$contador+2]; ?></a>
-                        </li>
+                          for ($i=0; $i < count($lista_servicios); $i++) {
 
-                        <li class="nav-item">
-                           <a href=" <?php echo $lista_servicios[$contador+3]; ?>.php" class="nav-link" id="mma"><?php echo $lista_servicios[$contador+3]; ?></a>
-                        </li>
 
-                        <li class="nav-item">
-                           <a href="conocenos.php" class="nav-link" id="conocenos">Conocenos</a>
-                        </li>
+                       ?>
 
-    						</ul>
 
-    			</div>
+        										<li class="nav-item">
+        											 <a href="<?php echo $lista_servicios[$i]; ?>.php" class="nav-link" id="inicio"><?php echo $lista_servicios[$i]; ?></a>
+        										 </li>
+
+                      <?php
+                            }
+
+                      ?>
+
+                            <li class="nav-item">
+                               <a href="conocenos.php" class="nav-link" id="conocenos">Conocenos</a>
+                            </li>
+
+        						</ul>
+
+        			</div>
     </nav> <!--fin del menu-->
+
 
 <!--Inicio del slide-->
     <div class="container-fluid">
